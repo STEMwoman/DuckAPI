@@ -16,10 +16,8 @@ import SwiftUI
 
 //individual User from the json
 struct User: Codable {
-    public var login: String
+    public var image_url: String
     public var url: String
-    public var avatar_url: String
-    public var html_url: String
 }
 
 //the items array from the JSON
