@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 // Model representing a user object decoded from JSON
 struct User: Codable {
     public var imageUrl: String
